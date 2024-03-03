@@ -94,5 +94,11 @@ def generate_launch_description():
         gz_sim,
         bridge,
 #        joint_state_publisher_gui,
-        robot_state_publisher
+        robot_state_publisher,
+        Node(
+            package = "harpia_proj_final",
+            executable = "velocidade",
+            name = "velocidade",
+        )
+       
     ])

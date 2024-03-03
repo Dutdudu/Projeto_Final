@@ -26,6 +26,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "velocidade = harpia_proj_final.velocidade:main",
         ],
     },
 )
