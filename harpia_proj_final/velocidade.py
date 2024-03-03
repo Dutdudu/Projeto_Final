@@ -11,7 +11,7 @@ class RobotControlNode(Node):
 
     def publish_command(self):
         
-        self.cmd_vel_msg.linear.x = 0.5  
+        self.cmd_vel_msg.linear.x = 5.0  
         self.cmd_vel_msg.angular.z = 0.0  
         self.publisher_.publish(self.cmd_vel_msg)
 

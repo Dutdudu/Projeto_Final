@@ -27,6 +27,7 @@ setup(
     entry_points={
         'console_scripts': [
             "velocidade = harpia_proj_final.velocidade:main",
+            "andar_alvo1 = harpia_proj_final.andar_alvo1:main"
         ],
     },
 )
