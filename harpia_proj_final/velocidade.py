@@ -10,9 +10,9 @@ class RobotControlNode(Node):
         self.cmd_vel_msg = Twist()
 
     def publish_command(self):
-        # Aqui você pode definir os comandos de controle, como velocidade linear e angular
-        self.cmd_vel_msg.linear.x = 0.5  # Exemplo de velocidade linear
-        self.cmd_vel_msg.angular.z = 0.0  # Exemplo de velocidade angular
+        
+        self.cmd_vel_msg.linear.x = 0.5  
+        self.cmd_vel_msg.angular.z = 0.0  
         self.publisher_.publish(self.cmd_vel_msg)
 
 def main(args=None):
