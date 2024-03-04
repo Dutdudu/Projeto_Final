@@ -95,15 +95,15 @@ def generate_launch_description():
         bridge,
 #        joint_state_publisher_gui,
         robot_state_publisher,
+        #Node(
+            #package = "harpia_proj_final",
+            #executable = "velocidade",
+            #name = "velocidade",
+        #),
         Node(
             package = "harpia_proj_final",
-            executable = "velocidade",
-            name = "velocidade",
-        ),
-        #Node(
-         #   package = "harpia_proj_final",
-          #  executable = "andar_alvo1",
-           # name = "andar_alvo1",
-        #)
+            executable = "andar_alvo1",
+            name = "andar_alvo1",
+        )
        
     ])
